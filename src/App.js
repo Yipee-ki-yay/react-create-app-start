@@ -31,14 +31,13 @@ class App extends Component {
               value={this.state.text}
             />
             <button>save</button>
-            {/* <p>{this.state.todos[0]}<p/> */}
             <TodoList items={this.state.items} />
           </form>
         </section>
 
 
         <footer className="App-footer">
-
+          <h1>Footer</h1>
         </footer>
       </div>
     );
